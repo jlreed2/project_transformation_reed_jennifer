@@ -321,11 +321,10 @@ a {
     color: #5e5e5e;
 }
 
-#banner {
-    margin: 0 auto;
-    width: 1000px;
-    height: 340px;
-    background: url "../img/img03.png" no-repeat left bottom;
+#banner img {
+    margin: auto;
+    width: 100%;
+    height: auto;
 }
 
 .list-style1 {
