@@ -13,7 +13,6 @@ h3 {
     margin: 0;
     padding: 0;
     text-transform: uppercase;
-    font-weight: normal;
     font-family: 'Oswald', sans-serif;
     font-weight: 200;
     color: #222222;
@@ -48,7 +47,7 @@ a {
 
 .container {
     width: 1000px;
-    margin: 0px auto;
+    margin: 0 auto;
 }
 
 /* Header */
@@ -61,7 +60,7 @@ a {
     width: 1000px;
     height: 150px;
     margin: 0 auto;
-    padding: 0px 0px;
+    padding: 0 0;
 }
 
 /* Logo */
@@ -82,12 +81,12 @@ a {
 
 #logo h1 a {
     color: #1f1f1f;
-    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
 }
 
 #logo p {
     margin: 0;
-    padding: 0px 0 0 0px;
+    padding: 0 0 0 0;
     letter-spacing: -1px;
     font: normal 18px Georgia, "Times New Roman", Times, serif;
     font-style: italic;
@@ -118,7 +117,7 @@ a {
 #menu ul {
     float: right;
     margin: 0;
-    padding: 20px 0px 0px 0px;
+    padding: 20px 0 0 0;
     list-style: none;
     line-height: normal;
 }
@@ -131,10 +130,10 @@ a {
     display: block;
     line-height: 100px;
     margin-right: 1px;
-    padding: 0px 20px 0px 20px;
+    padding: 0 20px 0 20px;
     text-decoration: none;
     text-align: center;
-    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
     font-size: 16px;
@@ -155,7 +154,7 @@ a {
 #page {
     width: 1000px;
     margin: 0 auto;
-    padding: 30px 0px;
+    padding: 30px 0;
 }
 
 /* Content */
@@ -163,7 +162,7 @@ a {
 #content {
     float: right;
     width: 660px;
-    padding: 0px 0px 0px 0px;
+    padding: 0 0 0 0;
 }
 
 .post {
@@ -173,7 +172,7 @@ a {
 }
 
 .post .title {
-    padding: 7px 0px 0px 0px;
+    padding: 7px 0 0 0;
     letter-spacing: -1px;
 }
 
@@ -185,7 +184,7 @@ a {
 
 .post .meta {
     margin-bottom: 30px;
-    padding: 10px 0px 0px 0px;
+    padding: 10px 0 0 0;
     text-align: left;
     font-family: 'Abel', sans-serif;
     font-size: 16px;
@@ -201,7 +200,7 @@ a {
 }
 
 .post .entry {
-    padding: 0px 0px 40px 0px;
+    padding: 0 0 40px 0;
     text-align: justify;
 }
 
@@ -238,8 +237,8 @@ a {
 #sidebar {
     float: left;
     width: 270px;
-    margin: 0px;
-    padding: 30px 0px 0px 0px;
+    margin: 0;
+    padding: 30px 0 0 0;
 }
 
 #sidebar ul {
@@ -254,14 +253,13 @@ a {
 }
 
 #sidebar li ul {
-    margin: 0px 0px;
+    margin: 0 0;
     padding-bottom: 30px;
 }
 
 #sidebar li li {
     line-height: 40px;
     border-bottom: 1px solid #e7ebed;
-    margin: 0px 0px;
     border-left: none;
 }
 
@@ -274,21 +272,20 @@ a {
 }
 
 #sidebar li li a {
-    padding: 0px 0px 0px 20px;
+    padding: 0 0 0 20px;
     background: url"../img/img04.jpg" no-repeat left 50%;
 }
 
 #sidebar h2 {
     height: 38px;
-    padding: 0px 0px 30px 0px;
+    padding: 0 0 30px 0;
     letter-spacing: -0.5px;
     font-size: 1.8em;
     color: #222222;
 }
 
 #sidebar p {
-    margin: 0 0px;
-    padding: 0px 30px 20px 30px;
+    padding: 0 30px 20px 30px;
     text-align: justify;
 }
 
@@ -325,15 +322,13 @@ a {
 }
 
 #banner {
-    margin: 0px auto;
+    margin: 0 auto;
     width: 1000px;
     height: 340px;
     background: url "../img/img03.png" no-repeat left bottom;
 }
 
 .list-style1 {
-    margin: 0px;
-    padding: 0px;
     list-style: none;
 }
 
