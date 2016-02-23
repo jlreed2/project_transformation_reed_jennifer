@@ -8,6 +8,10 @@ html {
     box-sizing: inherit;
 }
 
+.site-container {
+    max-width: 1200px;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -73,7 +77,6 @@ a {
 /* Logo */
 
 #logo {
-    width: 300px;
     margin: 0;
     padding: 0;
     color: #ffffff;
@@ -314,7 +317,7 @@ a {
 }
 
 #banner img {
-    margin: auto;
+    margin: 0 auto;
     width: 100%;
     height: auto;
 }
