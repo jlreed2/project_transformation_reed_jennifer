@@ -240,6 +240,18 @@ a {
     text-decoration: none;
 }
 
+@media (min-width: 950px) {
+    #content {
+        float: right;
+        margin-left: 3.5em;
+        width: calc(100% / 3 * 2);
+    }
+    #sidebar {
+        float: left;
+        width: calc(100% / 3 - 3.5em);
+    }
+}
+
 /* Sidebar */
 
 #sidebar {
@@ -326,8 +338,11 @@ a {
     color: #5e5e5e;
 }
 
-#banner img {
+#banner {
     margin: 0 auto;
+}
+
+#banner img {
     width: 100%;
     height: auto;
 }
