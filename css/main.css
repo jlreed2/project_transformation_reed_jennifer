@@ -62,11 +62,13 @@ a {
     margin: 0 auto;
 }
 
-/* Header */
-
-#header-wrapper {
-    overflow: hidden;
+.group::after {
+    content: '';
+    clear: both;
+    display: block;
 }
+
+/* Header */
 
 #header {
     margin: 0 auto;
@@ -174,7 +176,6 @@ a {
 }
 
 .post {
-    overflow: hidden;
     margin-bottom: 40px;
     border-bottom: 1px solid #e7ebed;
 }
